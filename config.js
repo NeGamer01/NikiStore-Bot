@@ -10,13 +10,13 @@ module.exports = {
 
   // ─── DIGIFLAZZ ───────────────────────────────────────
   digiuser: 'wolahoD7l2KW',       // Username Digiflazz
-  digiapi: 'pastekan-apikey-digikamu-a',        // API Key Digiflazz
+  digiapi: 'pastekan-apikey-digikamu-disiniya',        // API Key Digiflazz
 
   // ─── QRISPAY GATEWAY (QRIS) ───────────────────────────
   // Dashboard: https://pay.halogamingzone.com/app (menu "API Keys" → Buat API Key)
   // API key berprefix "qp_" — key lama (npk_) dari NikiPay v2 TIDAK berlaku.
   qrispayUrl: 'https://pay.halogamingzone.com', // URL gateway QRISPay (tanpa / di akhir)
-  qrispayKey: 'qp_3cf1ecde441a9155e36f6adff5eef81d3f6cc92c0ef2',        // API key dari dashboard QRISPay (/app → API Keys)
+  qrispayKey: 'qp_3cf1ecde441a9155e36f6adff5eef81d38c49f6cc92c0ef2',        // API key dari dashboard QRISPay (/app → API Keys)
 
   // ─── PROMO NOTIFIKASI GRUP ───────────────────────────
   promoGroupJid: '1203632970854110@g.us', // Isi dengan JID grup yang mau dikirimi notifikasi transaksi sukses (contoh: '120363xxx@g.us')
@@ -29,8 +29,8 @@ module.exports = {
   // Panel: billing.nikistore.biz.id (Application API keys ada di panel admin).
   ptero: {
     domain: 'billing.nikistore.biz.id',
-    ptla: 'ptla_pPQ7tT8SoMMvYQWYVHqkpjoN4sFoBQoijXrzdc',
-    ptlc: 'ptlc_DziAP4Pq8yICDm4xN6LdCdwkVOfj1Ekf85f9fdF',
+    ptla: 'ptla_pPQ7tT8SoMMvYQWYVHqkpjoN4sFityvUoBQoijXrzdc',
+    ptlc: 'ptlc_DziAP4Pq8yICDm4xN6LdCdwkVOfjaSXf1Ekf85f9fdF',
     apiWrapperUrl: 'https://apiku-niki.vercel.app', // wrapper pembuatan server
     locationId: '1',                   // id location di panel
     eggId: '15',                       // id egg (jenis server, mis. Minecraft)
